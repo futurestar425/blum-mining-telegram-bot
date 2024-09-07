@@ -20,7 +20,7 @@ export default function Tasks () {
   const [selectedTab, setSelectedTab] = useState(tabList[0]);
 
   return (
-    <div className="h-screen px-4 bg-black text-white">
+    <div className="h-screen px-4 bg-indigo-950 text-white">
       <h1 className="pt-8">Earn</h1>
       {/* <h1 className="pt-8">Tasks<sup>51</sup></h1> */}
       {/* <h5 className="mt-4 text-gray-300">We'll reward you immediately with points after each task completion.</h5> */}
@@ -29,7 +29,7 @@ export default function Tasks () {
           tabList.map(name => {
             return (
               <h3 
-                className={`${selectedTab===name? 'text-white': 'text-dark'}`} 
+                className={`${selectedTab===name? 'text-white': 'text-dark'} cursor-pointer hover:text-gray-400`} 
                 key={name}
                 onClick={() => setSelectedTab(name)}>{name}
               </h3>

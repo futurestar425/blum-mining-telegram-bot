@@ -3,8 +3,8 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Loading from './components/Loading';
 import routes from './routes';
-import DefaultLayout from './layouts/DefaultLayout';
-// const DefaultLayout = lazy(() => import('./layouts/DefaultLayout'));
+// import DefaultLayout from './layouts/DefaultLayout';
+const DefaultLayout = lazy(() => import('./layouts/DefaultLayout'));
 
 function App() {
   const [loading, setLoading] = useState(true);

@@ -25,7 +25,7 @@ export default function Frens() {
   }
 
   return (
-    <div className="h-screen flex flex-col items-center justify-end px-4 bg-black text-white">
+    <div className="h-screen flex flex-col items-center justify-end px-4 bg-indigo-950 text-white">
       <div className='flex flex-col w-full overflow-auto'>
         <img className='self-center mb-8 w-16' src="https://telegram.blum.codes/_dist/Friends.ClqyQOtA.webp" alt="frens-logo" />
 
