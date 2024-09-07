@@ -1,4 +1,4 @@
-# Vite React Tailwind Starter
+# Blum mining telegram bot
 ![Screenshots](https://i.imgur.com/vlZMdj3.png)
 
 
