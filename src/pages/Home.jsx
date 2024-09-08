@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import bgImg from '../assets/images/bg.jpg'
+
 export default function Home() {
   
   const [shortName, setShortName] = useState("");
@@ -16,8 +18,13 @@ export default function Home() {
       <div className='w-full mt-8 mb-28 overflow-auto'>
         <div className="w-full flex items-center justify-between p-3 mb-4 bg-gray-500 bg-opacity-25 rounded-xl">
           <div className="flex items-center">
-            <img className=" justify-start w-10 h-10 mr-4 rounded-full" src="https://s3.blum.codes/11c780e1-9e8b-4047-b763-ce08ce8acb73/985f3e69-402c-4323-8f55-e4beeb2935f5" alt="avatar" 
+            <img 
+              className=" justify-start w-10 h-10 mr-4 rounded-full"
+              alt="avatar" 
+              src={bgImg} 
             />
+            {/* <img className=" justify-start w-10 h-10 mr-4 rounded-full" src="https://s3.blum.codes/11c780e1-9e8b-4047-b763-ce08ce8acb73/985f3e69-402c-4323-8f55-e4beeb2935f5" alt="avatar" 
+            /> */}
             <div>
               <h6 className="text-xl font-bold">Our Community</h6>
               <p className="text-md">20,754,859,791 BP</p>
