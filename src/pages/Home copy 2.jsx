@@ -12,8 +12,8 @@ export default function Home() {
   const gameAvatar = "data:image/webp;base64,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"
   
   return (
-    <div className="flex1 flex-col items-center px-4 text-white bg-indigo-950">
-      <div className='w-full mt-8 mb-28 overflow-auto'>
+    <div className="flex flex-col items-center px-4 text-white">
+      <div className='w-full mt-8 mb-16 overflow-auto'>
         <div className="w-full flex items-center justify-between p-3 mb-4 bg-gray-500 bg-opacity-25 rounded-xl">
           <div className="flex items-center">
             <img className=" justify-start w-10 h-10 mr-4 rounded-full" src="https://s3.blum.codes/11c780e1-9e8b-4047-b763-ce08ce8acb73/985f3e69-402c-4323-8f55-e4beeb2935f5" alt="avatar" 
@@ -57,13 +57,13 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className=" pt-4 bg-indigo-950">
+      <div className="pt-4 bg-indigo-950 opacity-10">
         <button 
           onClick={onClickStartFarming} 
-          className="fixed bottom-16 inset-x-4 mt-4 py-3 bg-gray-500 text-white font-bold rounded-md opacity-151">
+          className="fixed bottom-16 inset-x-4 mt-4 py-3 bg-gray-500 text-white font-bold rounded-md">
           <h4>⚡ Start farming</h4>
         </button>
       </div>
     </div>
   );
-}
+}  

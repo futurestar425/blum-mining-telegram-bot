@@ -18,7 +18,7 @@ const Loading = () => {
     //   <div style={style} className="animate-spin rounded-full">
     //   </div>
     // </div>
-    <div className="flex h-screen items-center justify-center bg-black">
+    <div className="flex h-screen items-center justify-center bg-indigo-950">
       <div className="h-16 w-16 animate-spin rounded-full border-4 border-solid border-primary border-t-transparent border-gray-100"></div>
     </div>
   );

@@ -25,8 +25,8 @@ export default function Frens() {
   }
 
   return (
-    <div className="h-screen flex flex-col items-center justify-end px-4 bg-indigo-950 text-white">
-      <div className='flex flex-col w-full overflow-auto'>
+    <div className="flex flex-col items-center justify-end px-4 bg-indigo-950 text-white">
+      <div className='self-end w-full mt-8 mb-16 flex flex-col overflow-auto'>
         <img className='self-center mb-8 w-16' src="https://telegram.blum.codes/_dist/Friends.ClqyQOtA.webp" alt="frens-logo" />
 
         <h1 className='text-center'>Invite frens. Earnpoints</h1>
@@ -44,9 +44,17 @@ export default function Frens() {
         }
       </div>
 
-      <button onClick={onClickConnectWallet} className=" w-full m-8 mx-20 py-4 text-18 bg-gray-200 text-black font-bold rounded ">
+      <div className="pt-4 bg-indigo-950">
+        <button 
+          onClick={onClickConnectWallet} 
+          className="fixed bottom-16 inset-x-4 mt-4 py-3 bg-white text-black font-bold rounded-md">
+          <h4>Invite a fren</h4>
+        </button>
+      </div>
+
+      {/* <button onClick={onClickConnectWallet} className=" w-full m-8 mx-20 py-4 text-18 bg-gray-200 text-black font-bold rounded ">
         <h4>Invite a fren</h4>
-      </button>
+      </button> */}
     </div>
   );
 }
